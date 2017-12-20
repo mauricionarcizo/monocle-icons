@@ -1,10 +1,7 @@
 # how to use
 
-Run `switch-icons.sh` from your monocle directory.
+1. Go to Monocle/monocle/static
 
-or:
+2. git clone https://github.com/neivoalves/monocle-icons.git
 
-1. `cd` to your *Monocle* directory
-2. `git config --file=.gitmodules submodule.monocle-icons.url https://github.com/ZeChrales/monocle-icons.git`
-3. `git submodule sync`
-4. `git submodule update --init --remote`
+3. Restart your web.py
